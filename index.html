@@ -1,0 +1,37 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<h1>42 Rush 00 mega machina calculator</h1>
+	<form id="loginForm">
+		<label for="enterLogin">Enter the login :</label>
+		<input id="enterLogin" name="login" value="">
+		<input type="submit" value="Compute !">
+	</form>
+	<p id="answer">Rush a faire :</p>
+	<script>
+		var form = document.getElementById("loginForm");
+
+		form.addEventListener("submit", function (event) {
+			event.preventDefault();
+			let login = document.getElementById("enterLogin").value;
+			let letterNumber = login.charCodeAt(0);
+			if (letterNumber >= 'a'.charCodeAt(0) && letterNumber <= 'z'.charCodeAt(0)) {
+				letterNumber -= 'a'.charCodeAt(0)
+			}
+			else if (letterNumber >= 'A'.charCodeAt(0) && letterNumber <= 'Z'.charCodeAt(0)) {
+				letterNumber -= 'A'.charCodeAt(0)
+			}
+			else {
+				letterNumber = 0;
+			}
+			let answer = document.getElementById("answer");
+			answer.innerHTML = "Rush a faire : rush0" + (letterNumber + 1) % 5;
+		});
+	</script>
+</body>
+
+</html>
