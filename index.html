@@ -2,16 +2,23 @@
 
 <head>
 	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.3/csshake-slow.min.css" integrity="sha512-gXyNuRltygC0lrFrvZ7YXbPS++xafArjyyDg1aC1CWysBnEBACWbQ0fEpfqTTFpikMg8826v6vTZ5bOhHSa8xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-	<h1>42 Rush 00 mega machina calculator</h1>
-	<form id="loginForm">
-		<label for="enterLogin">Enter the login :</label>
-		<input id="enterLogin" name="login" value="">
-		<input type="submit" value="Compute !">
-	</form>
-	<p id="answer">Rush a faire :</p>
+	<h1>42 Rush 00</h1>
+	<h1 class="strong">Méga Machina Calculator</h1>
+	<div class="corps">
+		<form id="loginForm">
+			<label for="enterLogin">Login :</label>
+			<input id="enterLogin" name="login" value=""><br><br>
+			<div class="shake-slow">
+				<input class="button" type="submit" value="Compute !">
+			</div>
+		</form>
+		<p id="answer">Rush à faire :</p>
+	</div>
 	<script>
 		var form = document.getElementById("loginForm");
 
@@ -29,7 +36,7 @@
 				letterNumber = 0;
 			}
 			let answer = document.getElementById("answer");
-			answer.innerHTML = "Rush a faire : rush0" + (letterNumber + 1) % 5;
+			answer.innerHTML = "Rush à faire : Rush 0" + (letterNumber + 1) % 5;
 		});
 	</script>
 </body>
