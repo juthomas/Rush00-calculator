@@ -3,12 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/csshake/1.5.3/csshake-slow.min.css" integrity="sha512-gXyNuRltygC0lrFrvZ7YXbPS++xafArjyyDg1aC1CWysBnEBACWbQ0fEpfqTTFpikMg8826v6vTZ5bOhHSa8xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-	<h1>42 Rush 00</h1>
-	<h1 class="strong">Méga Machina Calculator</h1>
+	<div class="all">
+	<main class="head">
+		<h3><span>M</span><span>éga M</span><span>achina C</span><span>alculator !</span></h3>
+		<p>42 Rush 00</p>
+	</main>
 	<div class="corps">
 		<form id="loginForm">
 			<label for="enterLogin">Login :</label>
@@ -19,6 +23,7 @@
 		</form>
 		<p id="answer">Rush à faire :</p>
 	</div>
+</div>
 	<script>
 		var form = document.getElementById("loginForm");
 
