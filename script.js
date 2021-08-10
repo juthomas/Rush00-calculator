@@ -48,7 +48,7 @@ function burst(intensity) {
 	var force = .7;
 	var lifeMin = 0;
 	var progress = Math.min(fwidth, caret.offsetWidth) / fwidth;
-	var offset = field.left + (fwidth * progress) * 2.2;
+	var offset = field.left + (fwidth * progress) * 2.0;
 	var rangeMin = Math.max(field.left, offset);
 	var rangeMax = Math.min(field.right, offset);
 	// var rangeMax = 600
