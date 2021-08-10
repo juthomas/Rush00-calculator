@@ -1,35 +1,29 @@
 
-
-
 body {
-	background-color: #21c2f5;
-}
-
-h1 {
-	text-align: center;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: #30343F;
-	font-size: 5rem;
-	font-weight: 100;
-}
-.strong {
-	text-align: center;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	color: #30343F;
-	font-size: 5rem;
-	font-weight: 600;
+	background-color: #000;
+	background-image: url(3349.jpeg);
+	background-repeat: no-repeat;
+	background-size: 200%;
+	background-position: center center;
+	border: 2px solid #30343F;
+	font-size: 1.75em;
+	margin-top: 20px;
+	padding: 0.25em 0.5em 0.3125em;
+	color: #21c2f5;
+	border-radius: 0.25em;
+	transition: all 0.1s;
+	font-family: "Pacifico", cursive;
 }
 
 
 .corps {
 	text-align:  center;
-	background-color: rgba(255,255,255,0.3);
+	background-color: none;
 	padding: 50px;
 	margin: auto;
 	max-width: 70%;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: "Pacifico", cursive;
 	color: #1b2021;
-	box-shadow: 4px 4px 10px #30343F;
 	border-radius: 6px;
 }
 
@@ -42,8 +36,14 @@ h1 {
 	margin: 20px;
 	font-weight: 600;
 	font-size: 2rem;
-	color: #30343F;
+	color: #FFF;
 	transition-duration: 0.5s;
+}
+
+label {
+	padding: 5px;
+	color: #FFF;
+	font-weight: 600;
 
 }
 
@@ -53,8 +53,8 @@ h1 {
 }
 
 #answer {
-	font-weight: 600;
-	color: #30343F;
+	font-weight: 800;
+	color: #FFF;
 }
 
 #enterLogin {
@@ -62,7 +62,7 @@ h1 {
 	border:2px solid rgba(255,255,255,.5);
 	font-size:1.75em;
 	padding:.25em .5em .3125em;
-	color:#30343F;
+	color:#FFF;
 	border-radius:6px;
 	background:transparent;
 	box-shadow: 1px 1px 3px #30343F;
@@ -109,9 +109,7 @@ h1 {
     text-shadow: 0 0 0.05em var(--c1), 0 0 0.1em var(--c2), calc(var(--shift) * 1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--c1), calc(var(--shift) * -1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--c1), calc(var(--shift) * 1) calc(var(--shift) * -1) calc(var(--spread) / 50) var(--c1), calc(var(--shift) * -1) calc(var(--shift) * 1) calc(var(--spread) / 50) var(--c1), 0 0 0 var(--base), 0 0 0 var(--base);
   }
 }
-body {
-  font-family: "Salsa", sans-serif;
-}
+
 
 h3 {
   font-family: "Pacifico", cursive;
@@ -141,10 +139,7 @@ h3 span:nth-child(4) {
           animation: flicker2 0.1s infinite alternate ease-in-out;
 }
 
-p {
-  margin: 0;
-  transform: translateX(10%);
-}
+
 
 main {
   text-align: center;
@@ -153,35 +148,18 @@ main {
   padding: 40px;
 }
 
-html, body {
-  height: 100%;
-}
-
-body {
-  background-image: url(3349.jpeg);
-  background-size: 200%;
-  background-position: center center;
-  border: 2px solid #30343F;
-  font-size: 1.75em;
-  margin-top: 20px;
-  padding: 0.25em 0.5em 0.3125em;
-  color: #ffa69e;
-  background-color: #ffa69e;
-  border-radius: 0.25em;
-  transition: all 0.1s;
-}
 span:focus,
 input:focus {
   outline: none;
-  color: #ffa69e;
-  border-color: #ffa69e;
+  color: #21c2f5;
+  border-color: #21c2f5;
 }
 span.keyup,
 input.keyup {
-  color: #ffa69e;
-  border-color: #ffa69e;
-  text-shadow: 0 0 0.125em #ffa69e;
-  box-shadow: 0 0 0.25em #ffa69e, inset 0 0 0.25em #ffa69e;
+  color: #21c2f5;
+  border-color: #21c2f5;
+  text-shadow: 0 0 0.125em #21c2f5;
+  box-shadow: 0 0 0.25em #21c2f5, inset 0 0 0.25em #21c2f5;
 }
 
 canvas {
@@ -198,7 +176,7 @@ input {
 }
 
 ::-webkit-input-placeholder {
-  color: #ffa69e;
+  color: #21c2f5;
   text-shadow: 0 0 0.125em transparent;
   -webkit-transition: all 0.25s;
   transition: all 0.25s;
@@ -209,7 +187,7 @@ input:focus::-webkit-input-placeholder {
 }
 
 ::-moz-placeholder {
-  color: #ffa69e;
+  color: #21c2f5;
   text-shadow: 0 0 0.125em transparent;
   -moz-transition: all 0.25s;
   transition: all 0.25s;
@@ -220,7 +198,7 @@ input:focus::-moz-placeholder {
 }
 
 :-ms-input-placeholder {
-  color: #ffa69e;
+  color: #21c2f5;
   text-shadow: 0 0 0.125em transparent;
   -ms-transition: all 0.25s;
   transition: all 0.25s;

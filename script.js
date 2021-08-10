@@ -9,7 +9,7 @@ var input = document.getElementById("enterLogin");
 var field = {}
 var hasFocus = false;
 var caret = document.createElement('span');
-var color = 'rgba(255,180,100,';
+var color = 'rgba(186,67,204,';
 
 
 caret.style.position = 'absolute';
