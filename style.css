@@ -62,7 +62,7 @@ label {
 	border:2px solid rgba(255,255,255,.5);
 	font-size:1.75em;
 	padding:.25em .5em .3125em;
-	color:#FFF;
+	color:rgb(211, 211, 211);
 	border-radius:6px;
 	background:transparent;
 	box-shadow: 1px 1px 3px #30343F;
@@ -156,10 +156,10 @@ input:focus {
 }
 span.keyup,
 input.keyup {
-  color: #21c2f5;
-  border-color: #21c2f5;
-  text-shadow: 0 0 0.125em #21c2f5;
-  box-shadow: 0 0 0.25em #21c2f5, inset 0 0 0.25em #21c2f5;
+  color: #00aade;
+  border-color: #00aade;
+  text-shadow: 0 0 0.6em #00aade;
+  box-shadow: 1px 1px 1.9em #00aade, inset 1px 1px 1em #00aade;
 }
 
 canvas {
