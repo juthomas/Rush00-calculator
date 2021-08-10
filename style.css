@@ -1,3 +1,6 @@
+
+
+
 body {
 	background-color: #93E1d8;
 }
@@ -16,6 +19,7 @@ h1 {
 	font-size: 5rem;
 	font-weight: 600;
 }
+
 
 .corps {
 	text-align:  center;
@@ -54,8 +58,72 @@ h1 {
 }
 
 #enterLogin {
-	border:none;
-	padding: 5px;
-	border-radius: 6px;
-	box-shadow: 1px 1px 3px #30343F;
+  border: 2px solid #30343F;
+  font-size: 1.75em;
+  margin-top: 20px;
+  padding: 0.25em 0.5em 0.3125em;
+  color: #ffa69e;
+  background-color: #ffa69e;
+  border-radius: 0.25em;
+  background: transparent;
+  transition: all 0.1s;
+}
+span:focus,
+input:focus {
+  outline: none;
+  color: #ffa69e;
+  border-color: #ffa69e;
+}
+span.keyup,
+input.keyup {
+  color: #ffa69e;
+  border-color: #ffa69e;
+  text-shadow: 0 0 0.125em #ffa69e;
+  box-shadow: 0 0 0.25em #ffa69e, inset 0 0 0.25em #ffa69e;
+}
+
+canvas {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+input {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+}
+
+::-webkit-input-placeholder {
+  color: #ffa69e;
+  text-shadow: 0 0 0.125em transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0.5;
+}
+
+::-moz-placeholder {
+  color: #ffa69e;
+  text-shadow: 0 0 0.125em transparent;
+  -moz-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+input:focus::-moz-placeholder {
+  opacity: 0.5;
+}
+
+:-ms-input-placeholder {
+  color: #ffa69e;
+  text-shadow: 0 0 0.125em transparent;
+  -ms-transition: all 0.25s;
+  transition: all 0.25s;
+}
+
+input:focus:-ms-input-placeholder {
+  opacity: 0.5;
 }
